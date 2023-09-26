@@ -1,0 +1,41 @@
+/* Estilo para o contêiner principal */
+.container {
+    width: 80%; /* Largura do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilo para a imagem */
+  .img-container {
+    float: left; /* Faz a imagem ficar à esquerda do texto */
+    width: 40%; /* Largura da imagem */
+    margin-right: 20px; /* Espaçamento à direita da imagem */
+  }
+  
+  .img-container img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  /* Estilo para a descrição */
+  .description {
+    width: 60%; /* Largura da descrição */
+  }
+  
+  /* Estilo para o texto da descrição */
+  .description p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+  }
+  
+  /* Estilo para o título da descrição */
+  .description h2 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-top: 0; /* Remove o espaço superior padrão */
+  }
+  
+  /* Estilo para o contêiner geral de descrição */
+  .description-container {
+    overflow: hidden; /* Evita que o conteúdo da descrição ultrapasse a imagem */
+  }
+  
