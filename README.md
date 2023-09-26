@@ -1,34 +1,18 @@
 # Arthurdesktop
 homework about web development
 
-<head>: Contém informações sobre o documento, como codificação de caracteres e metadados.
+<head>: Esta seção contém informações sobre o documento, incluindo a definição da codificação de caracteres (UTF-8) e configurações de visualização para dispositivos móveis.
 
-<meta charset="UTF-8">: Define a codificação de caracteres como UTF-8.
+<link rel="stylesheet" href="style.css">: Um link para um arquivo externo de estilo chamado "style.css" para a formatação da página.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">: Configura a visualização para dispositivos móveis.
+<title>Thurismo</title>: Define o título da página exibido na barra de título do navegador.
 
-<link rel="stylesheet" href="style.css">: Vincula uma folha de estilo externa.
+<body>: O conteúdo visível da página está dentro desta tag.
 
-<title>Thurismo</title>: Define o título da página exibido na barra do navegador.
-
-<body>: Contém o conteúdo visível da página.
-
-<header>: Cria o cabeçalho da página.
-
-<div class="logo">Thurismo</div>: Cria um logotipo na página.
-
-<p>Descubra os lugares mais incríveis de todo o mundo</p>: Exibe um slogan.
+<header>: Define o cabeçalho da página, que contém um logotipo e um slogan.
 
 <div class="destinos">: Agrupa informações sobre destinos de viagem.
 
-<div class="destino">: Cria seções para cada destino de viagem.
-
-<img src="img/grecia.jpg" alt="Destino 1">: Inclui imagens com um texto alternativo.
-
-<h2>Grécia</h2>: Exibe o nome do destino.
-
-<p>Grécia: Terra de Deuses e Belezas Inigualáveis.</p>: Descreve o destino.
-
-<a href="grecia.html">Clique aqui para saber mais</a>: Cria links para mais informações.
+<div class="destino">: Cria seções para cada destino de viagem, incluindo uma imagem, nome do destino, descrição e um link para saber mais.
 
 <footer>: Define o rodapé da página com informações de copyright.
